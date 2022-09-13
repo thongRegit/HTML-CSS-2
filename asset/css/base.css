@@ -1,0 +1,21 @@
+:root {
+    /* Viet cai dung chung nhu bien gan voi mot mau, de sau do dung lai */
+    --height-header:12.2em;
+    --height-header-mobile:6.9em;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin:0;
+}
+
+html {
+    /* viet nhu nay giup cho viec quy doi rem/em qua px don gian hon : vi du 1em/rem = 10px -> 1,6em/rem = 16px*/
+    font-size: 62.5%; 
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP';
+}
+
