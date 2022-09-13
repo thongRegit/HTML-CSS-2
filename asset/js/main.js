@@ -24,11 +24,11 @@ window.onscroll = function () {
 }
 
 /* Actice pagition when click */
-var pagitionNumbers = document.querySelectorAll('.pagination');
+var pagitionNumbers = document.querySelectorAll('.pagination-number');
 
 pagitionNumbers.forEach(function (number) {
     number.onclick = function () {
-        document.querySelector('.pagination.active').classList.remove('active');
+        document.querySelector('.pagination-number.active').classList.remove('active');
         this.classList.add('active');
     }
 })
