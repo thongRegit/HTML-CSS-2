@@ -2,6 +2,8 @@
     /* Viet cai dung chung nhu bien gan voi mot mau, de sau do dung lai */
     --height-header: 12.2em;
     --height-header-mobile: 6.9em;
+    --padding-top-and-bottom-header: 3rem;
+    --padding-top-and-bottom-header-mobile: 1.2rem;
 }
 
 * {
@@ -18,4 +20,3 @@ html {
     box-sizing: border-box;
     font-family: 'Noto Sans JP';
 }
-
