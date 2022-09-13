@@ -31,5 +31,4 @@ pagitionNumbers.forEach(function (number) {
         document.querySelector('.pagination.active').classList.remove('active');
         this.classList.add('active');
     }
-    
 })
