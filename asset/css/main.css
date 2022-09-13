@@ -10,22 +10,22 @@
     box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
 }
 
-.header.scrollUp {
+.header.scroll-up {
     overflow: hidden;
-    animation: scrollUp ease 2s;
+    animation: scroll-up ease 2s;
     animation-fill-mode: forwards;
 }
 
-.header.scrollDown {
+.header.scroll-down {
     overflow: hidden;
-    animation: scrollDown ease .3s;
+    animation: scroll-down ease .3s;
     animation-fill-mode: forwards;
 }
 
 /* Animation */
-@keyframes scrollDown {
+@keyframes scroll-down {
     from {
-        height: 0%;
+        height: 0;
     }
 
     to {
@@ -33,13 +33,13 @@
     }
 }
 
-@keyframes scrollUp {
+@keyframes scroll-up {
     from {
         height: var(--height-header);
     }
 
     to {
-        height: 0%;
+        height: 0;
     }
 }
 
@@ -118,7 +118,7 @@
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 /* header-btn */
@@ -142,7 +142,7 @@
     border-radius: 0.3rem;
     background: #770303;
     font-family: 'Noto Sans JP';
-    text-align: center; 
+    text-align: center;
 }
 
 .header-btn .btn-create-blog {
@@ -358,10 +358,10 @@ ul button:hover {
     margin: 0 0.4rem;
     background: transparent;
     text-align: center;
-    border-radius: 1.6rem; 
+    border-radius: 1.6rem;
 }
 
-.pagination ul li a { 
+.pagination ul li a {
     font-family: 'SVN-Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -543,9 +543,9 @@ footer {
 
     /* Animation */
 
-    @keyframes scrollDown {
+    @keyframes scroll-down {
         from {
-            height: 0%;
+            height: 0;
         }
 
         to {
@@ -553,27 +553,28 @@ footer {
         }
     }
 
-    @keyframes scrollUp {
+    @keyframes scroll-up {
         from {
             height: var(--height-header-mobile);
         }
 
         to {
-            height: 0%;
+            height: 0;
         }
     }
 
-    .header.scrollUp {
+    .header.scroll-up {
         height: var(--height-header-mobile);
         overflow: hidden;
-        animation: scrollUp ease 2s;
+        animation: scroll-up ease 2s;
         animation-fill-mode: forwards;
     }
 
-    .header.scrollDown {
+    .header.scroll-down {
         height: var(--height-header-mobile);
         overflow: hidden;
-        animation: scrollDown ease .3s;
+        animation: scroll-down ease .3s;
         animation-fill-mode: forwards;
     }
+    
 }
